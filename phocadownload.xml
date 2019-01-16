@@ -42,16 +42,15 @@
 	</files>
 
 	<media destination="com_phocadownload" folder="media">
-		<filename>index.html</filename>
 		<folder>bootstrap</folder>
 		<folder>css</folder>
 		<folder>images</folder>
 		<folder>js</folder>
 	</media>
 
-	<languages>
-		<language tag="en-GB" client="site">language/en-GB/en-GB.com_phocadownload.ini</language>
-		<language tag="en-GB" client="site">language/en-GB/en-GB.com_phocadownload.sys.ini</language>
+	<languages folder="language">
+		<language tag="en-GB" client="site">en-GB/en-GB.com_phocadownload.ini</language>
+		<language tag="en-GB" client="site">en-GB/en-GB.com_phocadownload.sys.ini</language>
 	</languages>
 
 	<administration>
@@ -76,9 +75,7 @@
 			<filename>access.xml</filename>
 			<filename>config.xml</filename>
 			<filename>controller.php</filename>
-			<filename>index.html</filename>
 			<filename>phocadownload.php</filename>
-			<filename>phocadownload.xml</filename>
 			<folder>controllers</folder>
 			<folder>help</folder>
 			<folder>helpers</folder>
@@ -90,9 +87,9 @@
 			<folder>views</folder>
 		</files>
 
-		<languages>
-			<language tag="en-GB">language/en-GB/en-GB.com_phocadownload.ini</language>
-			<language tag="en-GB">language/en-GB/en-GB.com_phocadownload.sys.ini</language>
+		<languages folder="language">
+			<language tag="en-GB">en-GB/en-GB.com_phocadownload.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_phocadownload.sys.ini</language>
 		</languages>
 
 	</administration>
